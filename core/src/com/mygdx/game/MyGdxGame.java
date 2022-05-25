@@ -20,6 +20,7 @@ public class MyGdxGame extends ApplicationAdapter {
 	@Override
 	public void render () {
 		ScreenUtils.clear(Color.CYAN);
+		ScreenUtils.clear(Color.SLATE);
 
 		Gdx.graphics.setTitle("Xo XO!");
 
