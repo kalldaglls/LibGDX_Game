@@ -24,7 +24,7 @@ public class MyGdxGame extends ApplicationAdapter {
 		Gdx.graphics.setTitle("Xo XO!");
 
 		float x = Gdx.input.getX();
-		float y = Gdx.graphics.getHeight() - Gdx.input.getY();
+		float y = Gdx.graphics.getHeight() - Gdx.input.getY() + 1f;
 //		float y = Gdx.input.getY();
 
 		batch.begin();
